@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.companyname{
+    margin-left: 20px;
+}
+.company{
+    font-weight: bold;
+}
+.logout{
+    margin: 10px 30px ;
+}
+.badge{
+    background-color: grey;
+}
+.location{
+    padding-left: 20px;
+}
+.date{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position:relative;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1;
+}
+.sidebar > div {
+    display: flex;
+    align-items: center;
+  }
+  .sidebar img {
+  margin-left: 20px;
+  height: 25px;
+  width: 25px;
+  }
+
+.sidebar a {
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+    display: block;
+}
+.sidebar a:hover{
+    color: #00b67a;
+}
+.sidebar div:hover {
+    background-color:#e3fff5;
+    border-right: 2px solid #00b67a;
+    height: auto;
+}
+@media (max-width: 767px) {
+    .sidebar {
+        width: 100%;
+        height: auto; 
+        position: static; 
+        background-color: #fff; 
+    }
+    .sidebar a {
+        color: grey; 
+    }
+    .sidebar a:hover {
+        color: #00b67a;
+    }
+}
+.discount{
+    background-color: #fbd995;
+    align-items: center;
+    text-align: center;
+    width:max-content;
+    height:auto;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+.discount p{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.btn{
+    width: 150px;
+}
+.crossprice{
+    text-decoration: line-through;
+    color: red; 
+}
+
+.create_resume{
+    border: 2px solid #00b67a;
+    border-radius: 10px;
+}
+.resume_btn{
+    width: 250px; 
+}
+.resume_img{
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.resume_img_btn{
+    width: 100px;
+    color: #00b67a;
+    border: 1px solid #00b67a ;
+    border-radius: 5px;
+    background-color: #ebfff8;
+    height: 35px;
+}
+.resume_img_btn:hover{
+    background-color: #00b67a ;
+    color: white;
+}
+.resume_view_btn{
+    width: 80px;
+    color: #00b67a;
+    border: 1px solid #00b67a ;
+    border-radius: 5px;
+    background-color: #ebfff8;
+    height: 35px;
+}
+.resume_view_btn:hover{
+    background-color: #00b67a ;
+    color: white;
+}
+.resume{
+    
+}
+.zomato{
+    font-weight: bold;
+}
+.bonus{
+    font-weight: bold;
+}
+.background_one{
+    background-color: #f6efef;
+   
+}
+.background_two{
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.background_three{
+    background-color: #f6efef;
+    border-radius: 10px;
+   
+}
+
+.col-lg-4 {
+    max-width: 33.33%; 
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.resume_img img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+.view_img img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 10px; 
+}
